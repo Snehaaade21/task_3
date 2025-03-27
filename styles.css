@@ -1,0 +1,60 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('hero-background.jpg') no-repeat center center/cover;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Section Title */
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #007bff;
+    margin: 10px auto;
+  }
+  
+  /* About Section */
+  .about-text {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .highlight {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Projects */
+  .card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  
+  /* Contact Section */
+  .contact-form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Footer */
+  footer {
+    font-size: 0.9rem;
+    background: #000;
+    color: #777;
+  }
+  
